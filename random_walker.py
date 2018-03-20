@@ -1,5 +1,5 @@
 import random
-#from pddlsim.successors.tracked_successor import TrackedSuccessor
+from pddlsim.successors.tracked_successor import TrackedSuccessor
 
 class RandomExecutor(object):
 	""" RandomExecutor - pick a random valid action each step
