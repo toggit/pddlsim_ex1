@@ -1,5 +1,8 @@
-from executor import Executor
+#from executor import Executor
 import pddlsim.planner as planner
+from pddlsim.executors.executor import Executor
+
+
 
 class PlanDispatcher(Executor):
 	"""docstring for PlanDispatcher."""
